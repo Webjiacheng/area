@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>5期雄起:三级联动demo</title>
+</head>
+<body>
+    <!--1.省份-->
+    <select id='province' size="1" onchange="change(this.value);">
+        <option>请选择省份</option>
+    </select>
+    <!--2.地市-->
+    <select id='city' size="1" onchange="countyChange(this.value);">
+        <option>请选择地市</option>
+    </select>
+    <!--3.县城-->
+    <select id='county' size="1">
+        <option>请选择县城</option>
+    </select>
+    <script src="./script.js"></script>
+</body>
+</html>
